@@ -1,0 +1,7 @@
+praw==7.7.0
+orjson
+tenacity
+python-dotenv
+pandas
+pyarrow
+tqdm
