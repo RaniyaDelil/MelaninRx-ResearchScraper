@@ -9,7 +9,7 @@ def scrub(text):
     text = PHONE.sub("[phone]", text)
     return text
 
-def run(infile="data_raw/reddit_posts.jsonl", outfile="data_public/sample_sanitized.jsonl", maxrows=50):
+def run(infile="data_raw/reddit_posts.jsonl", outfile="data_public/sample_sanitized.jsonl", maxrows=100):
     if not os.path.exists("data_public"):
         os.makedirs("data_public")
     i=0
